@@ -1,3 +1,5 @@
 /logs/
 /docker/mysql/my.cnf
 *.env
+*.ini
+*.log

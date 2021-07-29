@@ -4,11 +4,16 @@
     "service": "api" ,
     "workspaceFolder": "/go/src/github.com/ShunyaNagashige/go-mysql-de",
     "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash",
+      // "terminal.integrated.shell.linux": "/bin/bash",
+      "terminal.integrated.profiles.linux": {
+        "bash": {
+          "path": "/bin/bash"
+        },
+      },
       "go.toolsManagement.checkForUpdates": "off",
       "go.gopath": "/go",
       "go.gocodeAutoBuild": true,
-      "go.formatTool": "gofmt",
+      "go.formatTool": "goimports",
       "go.useLanguageServer": true,
       "editor.formatOnSave": false,
       "[go]": {
